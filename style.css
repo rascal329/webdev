@@ -1,0 +1,106 @@
+.tvlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+a:hover {
+    background-color: yellow
+}
+
+body {
+    background-color: #4562db;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 14px;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-family: sans-serif;
+}
+
+li a:hover {
+    background-color: dimgray;
+}
+
+.active {
+    background-color: black;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center
+}
+
+h4 {
+    font-family: sans-serif
+}
+
+iframe {
+    margin: auto;
+    /*  width: 80%;*/
+    border: 3px solid red;
+    padding: 10px;
+    display: block;
+}
+
+.ama {
+    text-align: center;
+}
+
+#amalink {
+    width: 20%;
+    outline: 5px solid black
+}
+
+#amalink:hover {
+    outline: 5px solid yellow;
+    width: 20%;
+}
+
+p {
+    text-align: center
+}
+
+.contactNote {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center
+}
+
+
+.events th,
+td {
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.events {
+    border-collapse: collapse
+}
